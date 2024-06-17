@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Cecytem Marketplace",
+    "description": "Proyecto escolar que simula una tienda online y brinda informacion sobre las carreras del plantel",
+    "link": "https://cecytem-marketplace.vercel.app",
+    "code": "htpps://github.com/crashlandxd/cecytem_marketplace",
+    "thumbnail": "#"
+  },
+  {
+    "title": "Snake",
+    "description": "Un snake hecho con JavasScript vanilla, HTML y CSS sin librerias :D",
+    "link": "snake.com",
+    "code": "htpps://github.com/Dax-G/snake",
+    "thumbnail": "#"
+  }
+]
