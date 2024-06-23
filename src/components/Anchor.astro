@@ -1,0 +1,7 @@
+---
+const {link} = Astro.props;
+const {id} = Astro.props
+---
+<a target="_blank" href={link} id={id} class=" flex gap-x-2 w-auto auto h-14 p-10 h-mintext-base items-center rounded-md  px-6 py-4 font-black bg-[--background-950] hover:ring-[1px] ring-[--accent] hover:bg-[--background-900] transition-colors  gap- 2 hover:text-[--accent] ">
+  <slot />
+</a>

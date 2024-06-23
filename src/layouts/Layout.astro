@@ -30,6 +30,76 @@ const description = "porfolio de dax - desarrollador frontend";
 	</body>
 </html>
 <style is:global>
+		:root{
+		--text: #ffffff;
+	--background: #1c0521;
+--primary: #ae00ff;
+--secondary: #600095;
+--accent: #d4af35;
+		}
+		:root{
+			--text-50: #f2f2f2;
+--text-100: #e6e6e6;
+--text-200: #cccccc;
+--text-300: #b3b3b3;
+--text-400: #999999;
+--text-500: #808080;
+--text-600: #666666;
+--text-700: #4d4d4d;
+--text-800: #333333;
+--text-900: #1a1a1a;
+--text-950: #0d0d0d;
+
+--background-50: #f8e9fc;
+--background-100: #f1d3f8;
+--background-200: #e4a6f2;
+--background-300: #d67aeb;
+--background-400: #c94ee4;
+--background-500: #bb21de;
+--background-600: #961bb1;
+--background-700: #701485;
+--background-800: #4b0d59;
+--background-900: #25072c;
+--background-950: #130316;
+
+--primary-50: #f7e5ff;
+--primary-100: #efccff;
+--primary-200: #df99ff;
+--primary-300: #cf66ff;
+--primary-400: #be33ff;
+--primary-500: #ae00ff;
+--primary-600: #8b00cc;
+--primary-700: #690099;
+--primary-800: #460066;
+--primary-900: #230033;
+--primary-950: #11001a;
+
+--secondary-50: #f6e5ff;
+--secondary-100: #edccff;
+--secondary-200: #db99ff;
+--secondary-300: #c966ff;
+--secondary-400: #b833ff;
+--secondary-500: #a600ff;
+--secondary-600: #8500cc;
+--secondary-700: #630099;
+--secondary-800: #420066;
+--secondary-900: #210033;
+--secondary-950: #11001a;
+
+--accent-50: #fbf7ea;
+--accent-100: #f6eed5;
+--accent-200: #eddeab;
+--accent-300: #e4cd81;
+--accent-400: #dbbc57;
+--accent-500: #d2ac2d;
+--accent-600: #a88924;
+--accent-700: #7e671b;
+--accent-800: #544512;
+--accent-900: #2a2209;
+--accent-950: #151104;
+
+
+		}
 	@font-face {
 		font-family: Montserrat;
 		src: url("/fonts/Montserrat-Medium.woff2")format("woff2");
@@ -37,7 +107,7 @@ const description = "porfolio de dax - desarrollador frontend";
 	html {
 		color-scheme: light dark;
 		font-family: system-ui, sans-serif;
-		background-color: #06070B;
+		background-color: var(--background);
 	}
 	body{
 		font-family: Montserrat,system-ui, -apple-system, sans-serif;
@@ -46,5 +116,6 @@ const description = "porfolio de dax - desarrollador frontend";
 		flex-direction: column;
 		align-items: center;
 	}
+	
 	
 </style>
